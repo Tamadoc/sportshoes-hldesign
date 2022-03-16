@@ -1,0 +1,84 @@
+p,
+a.nav-link {
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+.product-info p,
+a {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+.navbar {
+  z-index: 100;
+}
+
+.navbar-brand {
+  font-size: 1.6rem;
+}
+
+.carousel-indicators li {
+  margin: 0 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+.carousel-item img {
+  width: 100vw;
+  height: 100vh;
+}
+
+#search,
+#products {
+  width: 300px;
+  margin: auto;
+}
+
+.product-info {
+  height: 250px;
+  width: 300px;
+}
+
+#banner div {
+  bottom: 0;
+  max-width: 500px;
+}
+
+#banner a {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 480px) {
+  #search,
+  #products {
+    width: 620px;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 790px) {
+  .navbar-brand {
+    margin: 1rem 2rem;
+  }
+  #navbarNav {
+    justify-content: flex-end;
+    margin-right: 4rem;
+  }
+  #search,
+  #products {
+    width: 930px;
+    margin: auto;
+  }
+  #banner {
+    max-width: 65%;
+    margin: auto;
+  }
+  .banner-text {
+    max-width: 60%;
+  }
+}
